@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: PayPal Demo
+  profiles:
+    active: dev
+
+paypal:
+  mode: sandbox
+  client:
+    id: YOUR_CLIENT_ID
+    secret: YOUR_CLIENT_SECRET
